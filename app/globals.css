@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  background-color: #0d0d0f;
+  color: #ececf1;
+}
+
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
+textarea,
+input {
+  font-family: inherit;
+}
+
+/* thin scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-thumb {
+  background: #2a2a30;
+  border-radius: 999px;
+}
